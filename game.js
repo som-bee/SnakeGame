@@ -150,6 +150,8 @@ function init() {
 
 //start game/play game button
 gameBtn.addEventListener("click",function() {
+    c.fillStyle = 'black';
+    c.clearRect(0,0,canvas.width, canvas.height);
     //starting game
     init();
     //initializing live score to 0
