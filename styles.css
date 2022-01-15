@@ -1,0 +1,35 @@
+
+canvas{
+    background-color: black;
+}
+h1{
+    padding: 20px;
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.4rem;
+}
+.score-div{
+    position: absolute;
+    color: #fff;
+    padding: 15px;
+    user-select: none;
+}
+#game-init{
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    z-index: 99;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 350px;
+    background-color: #dbdbdb;
+    padding: 30px;
+}
+#game-btn{
+    margin-top: 70px;
+    padding: 10px 20px;
+}
